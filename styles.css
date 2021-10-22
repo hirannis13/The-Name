@@ -1,0 +1,199 @@
+/* THIS IS FOR INDEX*/
+
+
+nav {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+}
+body {
+    background-color: black;
+}
+
+
+/* top of the page inc. header, nav and pic
+   #Name - top of the page
+   .hamburger - icon*/
+
+
+   /*ONLY BUTTON*/
+ 
+
+#bttn {
+   
+    border: none; /* Remove borders */
+    color: rgb(255, 255, 255); /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 40px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+
+#bttn {
+    border: none;
+    cursor: pointer;
+   }
+
+.dd {
+    position: relative;
+    display: inline-block;
+     
+   }
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color:rgba(73, 5, 5, 0.322);
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(82, 82, 82, 0.2);
+   z-index: 1;
+   }
+
+ .dropdown-content a {
+   color: rgb(255, 255, 255);
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   }
+
+ .dropdown-content a:hover {
+     background-color: #ddd;
+   }
+
+ .dd:hover .dropdown-content {
+     display: block;
+   }
+
+ .dd:hover #bttn {
+     background-color: #5f1e19;
+   }
+
+   #bttn {
+       background-color: black;
+   }
+
+ .dd:hover #bttn {
+     border-radius: 20%;
+   }
+
+.hamburger {
+   width: 35px;
+   height: 5px;
+   background-color: rgb(255, 255, 255);
+   margin: 6px 0;
+   }
+
+
+    /*BUTTON END*/
+
+
+.container {
+      position: relative;
+      font-family: Arial;
+    }
+
+.text-block {
+        position: absolute;
+        bottom: 125px;
+        left: 60px;
+        background-color: rgb(110, 110, 110, 0.3);
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 300px;
+    }
+
+#name {
+      color: whitesmoke;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-size:40px ;
+    }
+
+ 
+  
+img {
+    
+    max-width: 100%;
+    padding: 0%;
+    }
+
+
+
+
+/*ISSUES PART INC COVERS H2
+  #newest and #popular - TWO H2 (NEWEST AND POPULAR)
+  .first - top part
+  .second - bottom part
+  .firstpics - images for top
+  .secondpics - images for bottom*/
+#newest {
+    color: whitesmoke;
+    border-bottom: whitesmoke;
+    border-bottom-style: solid;
+    width: 200px;
+}
+
+#popular {
+    color: whitesmoke;
+    text-align: right;
+    padding-top: 20px;
+   
+}
+
+
+
+.firstpics {
+    flex: 10%;
+  padding: 15px;
+  height: 150px;
+  background-color: rgb(110, 110, 110, 0.3);
+  
+}
+
+
+.secondpics {
+    flex: 15%;
+    padding: 15px;
+    height: 150px;
+    background-color: rgb(110, 110, 110, 0.3);
+}
+
+.hell {
+    display: flex;
+    padding-right: 400px;
+    padding-left: 100px;
+    
+    
+  }
+
+.hello {
+    display: flex;
+    padding-left: 400px;
+    padding-right: 100px;
+  }
+
+
+  #see {
+      color: whitesmoke;
+      text-align: center;
+      text-decoration: none;
+      margin-left: 45%;
+  }
+  
+.seall {
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+
+/*FOOTER PART*/
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgba(85, 85, 85, 0.329);
+    color: white;
+   
+  }
+

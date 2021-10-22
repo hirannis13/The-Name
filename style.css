@@ -1,0 +1,127 @@
+/* THIS IS FOR VOLUMES*/
+
+* {
+    background-color: rgb(0, 0, 0);
+}
+
+
+/*BUTTON*/
+
+.btn {
+    
+    border: none; /* Remove borders */
+    color: rgb(255, 255, 255); /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 40px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    position: absolute;
+    left: 1150px;
+    }
+
+#bttn {
+   
+    border: none; /* Remove borders */
+    color: rgb(255, 255, 255); /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 40px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+
+#bttn {
+    border: none;
+    cursor: pointer;
+   }
+
+.dd {
+    position: relative;
+    display: inline-block;
+     
+   }
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color:rgba(73, 5, 5, 0.322);
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(82, 82, 82, 0.2);
+   z-index: 1;
+   }
+
+ .dropdown-content a {
+   color: rgb(255, 255, 255);
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   }
+
+ .dropdown-content a:hover {
+     background-color: #ddd;
+   }
+
+ .dd:hover .dropdown-content {
+     display: block;
+   }
+
+ .dd:hover #bttn {
+     background-color: #5f1e19;
+   }
+
+   #bttn {
+       background-color: black;
+   }
+
+ .dd:hover #bttn {
+     border-radius: 20%;
+   }
+
+.hamburger {
+   width: 35px;
+   height: 5px;
+   background-color: rgb(255, 255, 255);
+   margin: 6px 0;
+   }
+
+   /*BUTTON END*/
+
+   .vol {
+       color: whitesmoke;
+   }
+
+
+   .firstpics {
+    flex: 10%;
+  padding: 15px;
+  height: 150px;
+  background-color: rgb(110, 110, 110, 0.3);
+  
+}
+
+
+.secondpics {
+    flex: 15%;
+    padding: 15px;
+    height: 150px;
+    background-color: rgb(110, 110, 110, 0.3);
+}
+
+.hell {
+    display: flex;
+    padding-right: 400px;
+    padding-left: 100px;
+    
+    
+  }
+
+.hello {
+    display: flex;
+    padding-left: 400px;
+    padding-right: 100px;
+  }
+
+
+  article {
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+  
